@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
+  background: #111113;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #111113;
+}
+
+/* ползунок скроллбара */
+body::-webkit-scrollbar-thumb {
+  background-color: #bfbfbf;
+  border-radius: 9em;
+  width: 1px;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
